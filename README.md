@@ -1,8 +1,8 @@
 # Desafio Guiado - Uso Basico de Array y Objetos
 
-## Estadísticas Centro Médico Ñuñoa
-
 [Enlace directo al proyecto]()
+
+## Estadísticas Centro Médico Ñuñoa
 
 Este proyecto muestra la información estadística de las consultas dentales realizadas en el centro médico de Ñuñoa. Utiliza HTML, CSS y JavaScript para desplegar los datos de manera dinámica y responsiva.
 
