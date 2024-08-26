@@ -1,4 +1,6 @@
-# Estadísticas Centro Médico Ñuñoa
+# Desafio Guiado - Uso Basico de Array y Objetos
+
+## Estadísticas Centro Médico Ñuñoa
 
 [Enlace directo al proyecto]()
 
