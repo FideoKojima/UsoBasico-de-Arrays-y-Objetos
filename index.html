@@ -1,12 +1,98 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="Luis Suarez">
-    <title>Estadísticas Centro Médico Ñuñoa</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Uso Básico de Arrays y Objetos</title>
 </head>
+
 <body>
+    <header class="text-center py-5">
+        <h1 style="font-weight: bold;">Centro Médico Dental de Ñuñoa</h1>
+    </header>
+
+    <section class="container">
+        <h2 style="font-weight: bold;">Radiología</h2>
+        <table id="radiologia-list" class="table table-bordered">
+            <thead class="table-primary">
+                <th>Atención</th>
+                <th>Paciente</th>
+                <th>Previsión</th>
+            </thead>
+
+            <tbody data-body-radiologia style="display: table-row-group;">
+            </tbody>
+        </table>
+
+        <table id="radiologia-list-full" class="table table-bordered table-striped">
+            <thead class="table-secondary">
+                <th>Hora</th>
+                <th>Especialista</th>
+                <th>Paciente</th>
+                <th>RUT</th>
+                <th>Previsión</th>
+            </thead>
+
+            <tbody data-body-radiologia style="display: table-row-group;">
+            </tbody>
+        </table>
+
+        <h2 class="mt-5" style="font-weight: bold;">Traumatología</h2>
+        <table id="traumatologia-list" class="table table-bordered">
+            <thead class="table-primary">
+                <th>Atención</th>
+                <th>Paciente</th>
+                <th>Previsión</th>
+            </thead>
+
+            <tbody>
+            </tbody>
+        </table>
+
+        <table id="traumatologia-list-full" class="table table-bordered table-striped">
+            <thead class="table-secondary">
+                <th>Hora</th>
+                <th>Especialista</th>
+                <th>Paciente</th>
+                <th>RUT</th>
+                <th>Previsión</th>
+            </thead>
+
+            <tbody>
+            </tbody>
+        </table>
+
+        <h2 class="mt-5" style="font-weight: bold;">Dental</h2>
+        <table id="dental-list" class="table table-bordered">
+            <thead class="table-primary">
+                <th>Atención</th>
+                <th>Paciente</th>
+                <th>Previsión</th>
+            </thead>
+
+            <tbody>
+            </tbody>
+        </table>
+
+        <table id="dental-list-full" class="table table-bordered table-striped">
+            <thead class="table-secondary">
+                <th>Hora</th>
+                <th>Especialista</th>
+                <th>Paciente</th>
+                <th>RUT</th>
+                <th>Previsión</th>
+            </thead>
+
+            <tbody>
+            </tbody>
+        </table>
+    </section>
+
     <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
