@@ -21,7 +21,7 @@ Este proyecto muestra la información estadística de las consultas dentales rea
 ## Cómo Ejecutar el Proyecto
 
 1. Clona este repositorio en tu máquina local.
-2. Asegúrate de que los archivos `index.html`, `style.css` y `script.js` estén en el mismo directorio.
+2. Asegúrate de que los archivos `index.html` y `script.js` estén en el mismo directorio.
 3. Abre el archivo `index.html` en tu navegador preferido.
 
 ## Pruebas de Responsividad
