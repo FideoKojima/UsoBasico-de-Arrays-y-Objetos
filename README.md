@@ -1,6 +1,6 @@
 # Desafio Guiado - Uso Basico de Array y Objetos
 
-[Enlace directo al proyecto]()
+[Enlace directo al proyecto](https://uso-basico-de-arrays-y-objetos-chi.vercel.app/)
 
 ## Estadísticas Centro Médico Ñuñoa
 
